@@ -1,0 +1,17 @@
+<a href="/">&larr; Home</a>
+<p>
+<% console.log(user); %>
+ID: <%= user.id %><br/>
+Username: <%= user.username %><br/>
+Domain: <%= user._json.domain %><br/>
+Email: <%= user.email %><br/>
+Name: <%= user.displayName %><br/>
+Language: <%= user.language %><br/>
+Gender: <%= user.gender %><br/>
+<% if (user.emails) { %>
+Email: <%= user.emails[0].value %><br/>
+<% } %>
+<% if (user.photos.length > 0) { %>
+Photo:<br/><img src="<%= user.photos[0].value %>" />
+<% } %>
+</p>
