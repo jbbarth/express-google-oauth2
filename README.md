@@ -10,3 +10,5 @@ $ CLIENT_ID=xxx CLIENT_SECRET=xxx npm run start
 ```
 
 Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
+
+This implementation hardcodes a restriction to domain "botify.com", but you can adapt it of course ;-)
