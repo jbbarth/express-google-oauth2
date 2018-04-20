@@ -1,0 +1,13 @@
+{
+  "name": "express-google-oauth2",
+  "version": "0.0.0",
+  "description": "Express 4 + Google OAuth2",
+  "author": "JB Barth",
+  "license": "MIT",
+  "homepage": "https://github.com/jbbarth/express-google-oauth2",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "passport-google-oauth2": "^0.1.6"
+  }
+}
