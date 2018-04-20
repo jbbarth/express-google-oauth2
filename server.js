@@ -21,7 +21,8 @@ passport.use(new Strategy({
     // be associated with a user record in the application's database, which
     // allows for account linking and authentication with other identity
     // providers.
-    if (profile._json.domain === "botify.com") {
+    var restrict = process.env.RESTRICT_DOMAIN;
+    if (restrict && profile._json.domain === restrict) {
       return cb(null, profile);
     } else {
       cb(new Error("Invalid host domain " + profile._json.domain));
