@@ -1,6 +1,6 @@
 # Express Google OAuth2
 
-Inspired by https://github.com/passport/express-4.x-facebook-example
+Adapted from https://github.com/passport/express-4.x-facebook-example
 
 This example demonstrates how to use [Express](http://expressjs.com/) 4.x and
 [Passport](http://passportjs.org/) to authenticate users using Google OAuth2.
